@@ -1,11 +1,11 @@
 def solution(st):
     st = sorted(st)
-    count = 0
+    sum_Of_Num = 0
     while st[0].isdigit():
-        count += int(st[0])
+        sum_Of_Num += int(st[0])
         del st[0]
 
-    return ''.join(st) + str(count)
+    return ''.join(st) + str(sum_Of_Num)
 
 
 print(solution("K1KA5CB7"))

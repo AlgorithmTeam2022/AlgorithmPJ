@@ -1,14 +1,10 @@
 def solution(num):
-    num = str(num)
-    L = sum(list(map(int, list(num[0:len(num)//2]))))
-    R = sum(list(map(int, list(num[len(num) // 2:]))))
-
-    if L == R:
+    if sum(list(map(int, list(str(num)[0:len(str(num))//2])))) == sum(list(map(int, list(str(num)[len(str(num)) // 2:])))):
         return "LUCKY"
     return "READY"
 
 
 
-print(solution(int(input())))
-# print(solution(123402))
-# print(solution(7755))
+#print(solution(int(input())))
+print(solution(123402))
+print(solution(7755))
