@@ -21,3 +21,5 @@ def solution(s):
 
 s = input()
 solution(s)
+
+#https://pearlluck.tistory.com/589 블로그 참고,, 아직 잘 이해가 가지 않음,,
